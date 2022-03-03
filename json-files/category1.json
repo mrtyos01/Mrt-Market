@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "model": "Iphone 11 Pro Max",
+        "manufacturer": "Apple",
+        "price": "18294",
+        "properties": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "id": 2,
+        "model": "Galaxy S20",
+        "manufacturer": "Samsung",
+        "price": "9134",
+        "properties": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        
+    },
+    {
+        "id": 3,
+        "model": "Imac",
+        "manufacturer": "Apple",
+        "price": "28294",
+        "properties": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "id": 4,
+        "model": "Galaxy S10",
+        "manufacturer": "Samsung",
+        "price": "9134",
+        "properties": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        
+    },
+    {
+        "id": 5,
+        "model": "Smart Watch Series 6",
+        "manufacturer": "Apple",
+        "price": "8294",
+        "properties": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "id": 6,
+        "model": "Lenova X Max",
+        "manufacturer": "Lenova",
+        "price": "1914",
+        "properties": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        
+    },
+    {
+        "id": 7,
+        "model": "Macbook Air",
+        "manufacturer": "Apple",
+        "price": "1294",
+        "properties": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "id": 8,
+        "model": "GoPro 9",
+        "manufacturer": "ffefe",
+        "price": "91134",
+        "properties": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        
+    }
+    
+]

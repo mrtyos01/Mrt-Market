@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "name": "Category1",
+        "pic": "images/musk.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Category2",
+        "pic": "images/musk.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Category3",
+        "pic": "images/jobs.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Category4",
+        "pic": "images/musk.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Category5",
+        "pic": "images/musk.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Category6",
+        "pic": "images/musk.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Category7",
+        "pic": "images/jobs.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Category8",
+        "pic": "images/jobs.jpg"
+    }
+   
+]

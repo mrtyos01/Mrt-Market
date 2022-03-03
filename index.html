@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morty Markt</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header id="panel-heading">
+        <div class="container">
+            <div class="row">
+                <h1>Morty Markt Electronic Devices</h1>
+            </div>
+            <div class="row" id="nav-list">
+                <a href="index.html">Home Page</a><br>
+                
+                <h2>
+                    <button type="button" onclick="$dc.loadCategories();">View Categories</button>
+                </h2>
+            </div>
+        </div><!-- .container -->
+    </header>
+
+    <div id="main-content" class="container"></div>
+
+    <footer class="panel-footer">
+        <div id="phone" class="hidden-xs">
+            <a href="tel:05317376238">
+                <span>Contact No</span>
+            </a>
+        </div>
+        <div class="container" id="bye">
+            <button type="button" onclick="loadDocBye()">Enjoy your shopping&hearts;</button>
+        </div><!-- .container -->
+        <div class="ig-account">
+            <a href="https://www.instagram.com/mrt_yos01/" target="_blank" title="follow my page">
+                Our IG Account
+            </a>
+        </div>
+
+        <div class="container">
+            <a href="#top" style="float: none;">Back To Top!</a><hr />
+        </div><!-- .container -->
+        <div id="Morteza">
+            <button type="button" onclick="loadDocAbout()">About</button>
+        </div>
+        <div id="Copyright">
+            Copyright &copy; 2021 Morty Inc. All rights reserved
+        </div><!-- .Copyright -->
+    </footer>
+    <script>
+        function loadDocAbout() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("Morteza").innerHTML =
+                        this.responseText;
+                }
+            };
+            xhttp.open("GET", "text/ajax_about.txt", true);
+            xhttp.send();
+        }
+        function loadDocBye() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("bye").innerHTML =
+                        this.responseText;
+                }
+            };
+            xhttp.open("GET", "text/ajax_bye.txt", true);
+            xhttp.send();
+        }
+    </script>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ajax-utils.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
