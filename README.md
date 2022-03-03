@@ -14,4 +14,4 @@ Of course, there are other ways besides the above method. It varies from browser
 
 ## Reference
 ### HTML, CSS, and Javascripts for Web Developers
-#### In order to access the course's content [click here](https://www.coursera.org/learn/html-css-javascript-for-web-developers)
+#### In order to access the course contents [click here](https://www.coursera.org/learn/html-css-javascript-for-web-developers)
